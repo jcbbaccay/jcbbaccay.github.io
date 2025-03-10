@@ -1,0 +1,19 @@
+/* ========== Light Mode (Default) ========== */
+:root {
+    --bg-color: #f5f5f5;
+    --text-color: #333;
+    --nav-bg-color: #ffffff;
+    --header-bg-color: #e3f2fd;
+    --card-bg-color: #ffffff;
+    --accent-color: #0078FF;
+}
+
+/* ========== Dark Mode ========== */
+body.dark-mode {
+    --bg-color: #121212;
+    --text-color: #f5f5f5;
+    --nav-bg-color: #1e1e1e;
+    --header-bg-color: #252525;
+    --card-bg-color: #1f1f1f;
+    --accent-color: #4CAF50;
+}

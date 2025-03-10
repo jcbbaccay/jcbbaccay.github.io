@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Portfolio</title>
+    <title>John Carlo Baccay | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="darkmode.css">
 </head>
@@ -27,18 +27,34 @@
         <h1>Welcome to My Portfolio</h1>
         <p>Cybersecurity Enthusiast | Machine Learning Developer</p>
         <div class="social-icons">
-            <a href="https://github.com/jcbbaccay" target="_blank">
+            <a href="https://github.com/yourusername" target="_blank">
                 <img src="logos/github.png" alt="GitHub">
             </a>
-            <a href="https://linkedin.com/in/jcbbaccay" target="_blank">
+            <a href="https://linkedin.com/in/yourusername" target="_blank">
                 <img src="logos/ln.png" alt="LinkedIn">
             </a>
-            <a href="mailto:johncarlobbaccay03@gmail.com">
+            <a href="mailto:your.email@example.com">
                 <img src="logos/gmail.svg" alt="Email">
             </a>
         </div>
     </header>
 
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="filters">
+            <button class="filter-btn" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="ml">Machine Learning</button>
+        </div>
+
+        <div class="project-list">
+            <div class="project" data-category="web">Project 1 - Web Dev</div>
+            <div class="project" data-category="ml">Project 2 - Machine Learning</div>
+            <div class="project" data-category="web">Project 3 - Web App</div>
+        </div>
+    </section>
+
     <script src="script.js"></script>
+    <script src="filter.js"></script>
 </body>
 </html>
